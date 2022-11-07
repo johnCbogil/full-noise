@@ -11,9 +11,6 @@ Build a full stack app that is:
 - API
 - database
 
-## v0.3
-- implement nextJS
-
 ## v0.2
 - build UI to display fetched data
 - user should be able to click into a post and open a new page
