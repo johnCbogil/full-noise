@@ -11,13 +11,12 @@ Build a full stack app that is:
 - API
 - database
 
-## v0.1
-- React app that displays data from arbitrary api
-
-#### Open Questions
-- I can fetch data from https://jsonplaceholder.typicode.com/posts?_limit=10 but I cant' fetch from https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/all bc of CORS error, why?
-- The data is being fetched twice, why?
-  - strict mode: https://stackoverflow.com/a/66304817
+## v0.3
+- implement nextJS
 
 ## v0.2
-- implement nextJS
+- build UI to display fetched data
+- user should be able to click into a post and open a new page
+
+## v0.1
+- React app that displays data from arbitrary api
