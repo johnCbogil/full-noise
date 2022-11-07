@@ -1,7 +1,7 @@
 # Doing is faster than reading
 
-## Goal:
-- hosted
+## Goals:
+- hosted on a server
 - nextJS
 - react
 - API
@@ -9,3 +9,6 @@
 
 ## v0.1
 - React app that displays data from arbitrary api
+
+## v0.2
+- implement nextJS
