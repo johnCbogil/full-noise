@@ -1,6 +1,7 @@
 # Doing is faster than reading
 
 ## Goals:
+Build a full stack app that is:
 - hosted on a server
 - nextJS
 - react
