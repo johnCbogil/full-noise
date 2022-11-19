@@ -10,6 +10,7 @@ Build a full stack app that is:
 - react
 - API
 - database
+- linter
 
 ## v0.2
 - build UI to display fetched data
