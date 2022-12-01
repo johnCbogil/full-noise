@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Route, Routes } from "react-router-dom";
+import { Home } from './Home';
+import { PostDetail } from './PostDetail';
+import { Posts } from './Posts';
 
 export default function App() {
    useEffect(() => {
@@ -13,6 +17,10 @@ export default function App() {
    });
 
    return (
-    <></>
+    <Routes>
+      <Route path='/' element={<Home />}></Route>
+      <Route path="posts" element={<Posts/>}/>
+      <Route path="posts/:userID" element={<PostDetail/>}/>
+    </Routes>
     );
 };
