@@ -4,15 +4,16 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
+  RouterProvider
 } from "react-router-dom";
 import PostDetail from './PostDetail';
+import { loader as appLoader } from "./App";
 
 const router = createBrowserRouter([
     {
       path: "/",
-      element: <App></App>
+      element: <App></App>,
+      loader: appLoader
     },
     {
       path: "/posts/:postID",
