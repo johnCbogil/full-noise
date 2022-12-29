@@ -7,13 +7,18 @@ import {
   RouterProvider
 } from "react-router-dom";
 import PostDetail from './PostDetail';
-import { loader as appLoader } from "./App";
+import { loader as postsLoader } from "./Posts";
+import Posts from './Posts';
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <App></App>,
-      loader: appLoader
+    },
+    {
+      path: "/posts",
+      element: <Posts></Posts>,
+      loader: postsLoader
     },
     {
       path: "/posts/:postID",
