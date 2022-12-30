@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PostsNoRouter from "./PostsNoRouter";
 
 export default function App() {
    return (
@@ -7,6 +8,11 @@ export default function App() {
       <li>
       <Link to={'/posts'}>View Posts</Link>
       </li>
+
+      <div style={{marginTop: '20px'}}>
+         No Router
+         <PostsNoRouter />
+      </div>
       </div>
     );
 };
