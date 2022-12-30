@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import PostDetail from './PostDetail';
 import { loader as postsLoader } from "./Posts";
+import { loader as postDetailLoader } from "./PostDetail";
 import Posts from './Posts';
 
 const router = createBrowserRouter([
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
     },
     {
       path: "/posts/:postID",
-      element: <PostDetail></PostDetail>
+      element: <PostDetail postNumber={1}></PostDetail>,
+      loader: postDetailLoader
     }
   ]);
 
