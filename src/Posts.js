@@ -10,7 +10,7 @@ export async function getPosts() {
    .then(response => response.json())
    .then(data => {
       return data
-   });
+   }, []);
 }
 
 export default function Posts() {

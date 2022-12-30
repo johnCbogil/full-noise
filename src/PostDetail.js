@@ -11,7 +11,7 @@ export async function loader({ params }) {
     .then(response => response.json())
     .then(data => {
        return data
-    });
+    }, []);
  }
 
 export default function PostDetail() {
